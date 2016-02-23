@@ -1,0 +1,27 @@
+body {
+   background: #f8f8f8;
+}
+
+select:invalid { color: gray; }
+
+
+.ho_form button {
+	box-shadow: 5px 5px black;
+	background: white;
+	height: 30pt;
+	width: 50pt;
+	margin-top: 20px;
+}
+
+.ho_form input, .ho_form select {
+	margin-top: 20px;
+}
+
+.ho_form label  {
+	min-width: 100px;
+	display: inline-block;
+}
+
+footer {
+	margin-top:50px;
+}

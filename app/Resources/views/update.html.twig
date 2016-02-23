@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+			<meta charset="UTF-8" />
+            <link rel="stylesheet" href="css/ho.css" />
+            <title>{% block title %}Home Office{% endblock %} - Applied</title>
+			<link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {% endblock %}
+    </head>
+    <body>
+        <content>
+		{% block content %}
+			<h1>Application Complete</h1>
+			<p>{{ fullname }}, thankyou for applying to this useful Government Service</p>
+		{% endblock %}
+		</content>
+        <footer>
+            {% block footer %}
+                &copy; Copyright 2015 by <a href="https://www.gov.uk/government/organisations/home-office">The Home Office</a>.
+            {% endblock %}
+        </footer>
+		{% block javascripts %}{% endblock %}
+    </body>
+</html>
